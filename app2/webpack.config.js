@@ -13,14 +13,17 @@ module.exports = {
   output: {
     publicPath: "http://localhost:3001/", // Added this
   },
+  resolve: {
+    extensions: [".ts", ".tsx", ".jsx", ".js"],
+  },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          presets: ['@babel/preset-react'],
+          presets: ['@babel/preset-react', '@babel/preset-typescript'],
         },
       },
     ],

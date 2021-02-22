@@ -1,0 +1,13 @@
+/.git
+/.next
+/coverage
+/docs/export
+/tmp
+node_modules
+storybook-static
+.VSCodeCounter
+test
+src/_helpers
+build
+docs
+src/**/*.ts

@@ -1,0 +1,13 @@
+package.json
+package-lock.json
+yarn.lock
+/.git
+/.next
+coverage
+/docs/export
+/tmp
+build
+node_modules
+storybook-static
+.VSCodeCounter
+docs
